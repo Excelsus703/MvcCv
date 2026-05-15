@@ -1,0 +1,63 @@
+﻿@*<div class="resume-section-content">
+        <form method="post">
+            <h2 class="mb-5">İletişim</h2>
+            <label>Ad Soyad</label>
+            <input type="text" class="form-control" name="AdSoyad" />
+
+            <label>Mail</label>
+            <input type="text" class="form-control" name="Mail" />
+
+            <label>Konu</label>
+            <input type="text" class="form-control" name="Konu" />
+
+            <label>Mesaj</label>
+            <input type="text" class="form-control" name="Mesaj" />
+            <br />
+            <button class="btn btn-info">Mesaj Gönder</button>
+        </form>
+    </div>*@
+
+<div class="resume-section-content">
+
+    <h2 class="mb-5">İletişim</h2>
+
+    <!-- Geri Bildirim Mesajı -->
+    <div id="resultMessage" class="alert d-none" role="alert"></div>
+
+    <!-- Form Başlangıcı -->
+    <form id="iletisimForm" class="p-4 rounded shadow-sm bg-light">
+        <div class="form-group mb-4">
+            <label for="AdSoyad">
+                <i class="fas fa-user mr-2 text-primary"></i> Ad Soyad
+            </label>
+            <input type="text" class="form-control" id="AdSoyad" name="AdSoyad" placeholder="Adınızı ve soyadınızı yazınız" required />
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="Mail">
+                <i class="fas fa-envelope mr-2 text-primary"></i> E-Posta
+            </label>
+            <input type="email" class="form-control" id="Mail" name="Mail" placeholder="ornek@mail.com" required />
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="Konu">
+                <i class="fas fa-tag mr-2 text-primary"></i> Konu
+            </label>
+            <input type="text" class="form-control" id="Konu" name="Konu" placeholder="Mesaj konusu" required />
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="Mesaj">
+                <i class="fas fa-comment-alt mr-2 text-primary"></i> Mesaj
+            </label>
+            <textarea class="form-control" id="Mesaj" name="Mesaj" rows="5" placeholder="Mesajınızı buraya yazabilirsiniz..." required></textarea>
+        </div>
+
+        <div class="text-end">
+            <button type="submit" class="btn btn-primary px-4 py-2">
+                <i class="fas fa-paper-plane"></i> Gönder
+            </button>
+        </div>
+    </form>
+</div>
