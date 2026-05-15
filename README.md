@@ -62,6 +62,8 @@ Admin paneline `/Admin/Login` adresinden giriş yapabilirsiniz. Giriş sonrasın
 - Bu proje bir eğitim serisi kapsamında geliştirilmiştir.
 - Amaç; ASP.NET MVC 5, Entity Framework ve Repository Pattern konularını pekiştirmektir.
 
+---
+
 ## 📸 Ekran Görüntüleri
 
 Cv Sayfası 1
