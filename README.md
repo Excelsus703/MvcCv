@@ -48,7 +48,7 @@ MvcCv/
 
 1. Repoyu klonlayın:
    ```bash
-   git clone https://github.com/kullanici-adin/MvcCv.git
+   git clone https://github.com/Excelsus703/MvcCv.git
    ```
 
 2. MSSQL üzerinde veritabanını oluşturun ve `Web.config` dosyasındaki bağlantı dizesini güncelleyin:
