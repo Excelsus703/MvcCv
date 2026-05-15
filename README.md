@@ -1,6 +1,6 @@
 # MvcCv — Dinamik CV Web Uygulaması
 
-ASP.NET MVC 5 ile geliştirilmiş, yönetilebilir ve dinamik bir CV web uygulamasıdır. Tüm CV içerikleri veritabanından çekilmekte olup admin paneli aracılığıyla kolayca güncellenebilmektedir.
+Full Stack yolunda kendimi geliştirmek için ASP.NET MVC 5 ile geliştirilmiş, yönetilebilir ve dinamik örnek bir CV web uygulamasıdır. Tüm CV içerikleri veritabanından çekilmekte olup admin paneli aracılığıyla kolayca güncellenebilmektedir.
 
 ---
 
