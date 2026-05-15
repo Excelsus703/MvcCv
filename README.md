@@ -29,19 +29,6 @@ ASP.NET MVC 5 ile geliştirilmiş, yönetilebilir ve dinamik bir CV web uygulama
 
 ---
 
-## 📁 Proje Yapısı
-
-```
-MvcCv/
-├── Controllers/        # MVC Controller sınıfları
-├── Models/             # Entity Framework modelleri
-├── Views/              # Razor View dosyaları
-│   ├── Home/           # CV sayfası
-│   └── Admin/          # Admin paneli
-├── Repositories/       # Repository katmanı
-└── Content/            # CSS ve statik dosyalar
-```
-
 ---
 
 ## ⚙️ Kurulum
